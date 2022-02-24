@@ -3,3 +3,4 @@
 target/
 *.iml
 src/main/java/leetcode/editor/cn/*.json
+src/main/java/leetcode/editor/cn/doc
