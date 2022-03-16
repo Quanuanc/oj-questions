@@ -8,7 +8,8 @@ package q28;
 // @lc code=start
 class Solution {
     public int strStr(String haystack, String needle) {
-        //TODO   
+        //TODO
+        System.out.println("hello");
         return 0;
     }
 }
