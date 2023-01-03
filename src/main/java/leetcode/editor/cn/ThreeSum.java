@@ -11,41 +11,28 @@ public class ThreeSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
+            List<List<Integer>> ans = new ArrayList<>();
             int len = nums.length;
-            if (len < 3) {
-                return new ArrayList<>();
-            }
-
-            List<List<Integer>> result = new ArrayList<>();
+            if (len < 3) return ans;
             Arrays.sort(nums);
             for (int i = 0; i < len; i++) {
-                if (nums[i] > 0) return result;
+                if (nums[i] > 0) break;
                 if (i > 0 && nums[i] == nums[i - 1]) continue;
-                int left = i + 1;
-                int right = len - 1;
-                while (left < right) {
-                    if (nums[i] + nums[left] + nums[right] == 0) {
-                        List<Integer> tRes = new ArrayList<>();
-                        tRes.add(nums[i]);
-                        tRes.add(nums[left]);
-                        tRes.add(nums[right]);
-                        result.add(tRes);
-                        while (left < right && nums[left] == nums[left + 1]) {
-                            left = left + 1;
-                        }
-                        while (left < right && nums[right] == nums[right - 1]) {
-                            right = right - 1;
-                        }
-                        left = left + 1;
-                        right = right + 1;
-                    } else if (nums[i] + nums[left] + nums[right] > 0) {
-                        right = right - 1;
-                    } else {
-                        left = left + 1;
-                    }
+                int L = i + 1;
+                int R = len - 1;
+                while (L < R) {
+                    int sum = nums[i] + nums[L] + nums[R];
+                    if (sum == 0) {
+                        ans.add(List.of(nums[i], nums[L], nums[R]));
+                        while (L < R && nums[L] == nums[L + 1]) L++;
+                        while (L < R && nums[R] == nums[R - 1]) R--;
+                        L++;
+                        R--;
+                    } else if (sum < 0) L++;
+                    else R--;
                 }
             }
-            return result;
+            return ans;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
