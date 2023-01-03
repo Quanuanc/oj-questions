@@ -12,11 +12,11 @@ public class MajorityElement {
         public int majorityElement(int[] nums) {
             int threshold = nums.length / 2;
             Map<Integer, Integer> check = new HashMap<>();
-            for (int i = 0; i < nums.length; i++) {
-                if (!check.containsKey(nums[i])) {
-                    check.put(nums[i], 1);
+            for (int num : nums) {
+                if (!check.containsKey(num)) {
+                    check.put(num, 1);
                 } else {
-                    check.put(nums[i], check.get(nums[i]) + 1);
+                    check.put(num, check.get(num) + 1);
                 }
             }
             for (Map.Entry<Integer, Integer> entry : check.entrySet()) {
@@ -28,10 +28,4 @@ public class MajorityElement {
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
-    public static void main(String[] args) {
-        int[] nums = new int[]{3, 2, 3};
-        int result = new MajorityElement().new Solution().majorityElement(nums);
-        System.out.println(result);
-    }
 }
