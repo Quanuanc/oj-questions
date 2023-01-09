@@ -17,17 +17,21 @@ public class MergeTwoSortedLists {
      */
     class Solution {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-            if (list1 == null) {
-                return list2;
-            } else if (list2 == null) {
-                return list1;
-            } else if (list1.val < list2.val) {
-                list1.next = mergeTwoLists(list1.next, list2);
-                return list1;
-            } else {
-                list2.next = mergeTwoLists(list1, list2.next);
-                return list2;
+            ListNode virtual = new ListNode(-1);
+            ListNode p = virtual, p1 = list1, p2 = list2;
+            while (p1 != null && p2 != null) {
+                if (p1.val > p2.val) {
+                    p.next = p2;
+                    p2 = p2.next;
+                } else {
+                    p.next = p1;
+                    p1 = p1.next;
+                }
+                p = p.next;
             }
+            if (p1 != null) p.next = p1;
+            if (p2 != null) p.next = p2;
+            return virtual.next;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
