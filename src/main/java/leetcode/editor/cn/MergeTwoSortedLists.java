@@ -2,6 +2,9 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
+/**
+ * [21] 合并两个有序链表
+ */
 public class MergeTwoSortedLists {
     //leetcode submit region begin(Prohibit modification and deletion)
 
