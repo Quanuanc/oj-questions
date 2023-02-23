@@ -5,14 +5,13 @@ public class ValidPalindrome {
     class Solution {
         public boolean isPalindrome(String s) {
             if (s.length() == 0) return true;
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < s.length(); i++) {
-                if (Character.isLetterOrDigit(s.charAt(i))) {
-                    sb.append(Character.toLowerCase(s.charAt(i)));
-                }
-            }
-            for (int i = 0, j = sb.length() - 1; i <= j; i++, j--) {
-                if (sb.charAt(i) != sb.charAt(j)) return false;
+            for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
+                while (i < j && !Character.isLetterOrDigit(s.charAt(i)))
+                    i++;
+                while (i < j && !Character.isLetterOrDigit(s.charAt(j)))
+                    j--;
+                if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j)))
+                    return false;
             }
             return true;
         }

@@ -31,11 +31,16 @@ public class InsertInterval {
             if (!placed) {
                 ansList.add(new int[]{left, right});
             }
-            int[][] ans = new int[ansList.size()][2];
-            for (int i = 0; i < ansList.size(); ++i) {
-                ans[i] = ansList.get(i);
+            return listToArray(ansList);
+        }
+
+        private int[][] listToArray(List<int[]> list) {
+            int pairNums = list.size();
+            int[][] result = new int[pairNums][2];
+            for (int i = 0; i < list.size(); i++) {
+                result[i] = list.get(i);
             }
-            return ans;
+            return result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

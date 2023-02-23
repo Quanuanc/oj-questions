@@ -26,4 +26,10 @@ class ValidPalindromeTest {
         assertFalse(solution.isPalindrome(s));
     }
 
+    @Test
+    void test3() {
+        String s = ".,";
+        assertTrue(solution.isPalindrome(s));
+    }
+
 }
