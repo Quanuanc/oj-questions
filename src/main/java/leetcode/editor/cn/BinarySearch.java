@@ -1,5 +1,8 @@
 package leetcode.editor.cn;
 
+/**
+ * [704] 二分查找
+ */
 public class BinarySearch {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
