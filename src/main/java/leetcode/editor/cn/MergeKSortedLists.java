@@ -30,7 +30,7 @@ public class MergeKSortedLists {
             ListNode p = dummy;
 
             PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, Comparator.comparingInt(a -> a.val));
-            for (ListNode head : lists) {
+            for (ListNode head : lists) { //把每个链表的头节点先添加到二叉堆中
                 if (head != null)
                     queue.add(head);
             }
