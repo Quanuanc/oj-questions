@@ -7,14 +7,17 @@ public class TwoSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] nums, int target) {
-            Map<Integer, Integer> hashMap = new HashMap<>();
+            int[] result = new int[2];
+            Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
-                if (hashMap.containsKey(target - nums[i])) {
-                    return new int[]{hashMap.get(target - nums[i]), i};
+                int need = target - nums[i];
+                if (map.containsKey(need)) {
+                    result[0] = map.get(need);
+                    result[1] = i;
                 }
-                hashMap.put(nums[i], i);
+                map.put(nums[i], i);
             }
-            return new int[]{0, 0};
+            return result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
