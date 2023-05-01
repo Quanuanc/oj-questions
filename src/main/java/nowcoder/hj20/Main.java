@@ -26,17 +26,13 @@ public class Main {
 
     private static boolean checkLen(String str) {
         if (str == null) return false;
-        if (str.length() <= 8) {
-            return false;
-        }
-        return true;
+        return str.length() > 8;
     }
 
     private static boolean checkCharKind(String str) {
         char[] chars = str.toCharArray();
         int digit = 0, low = 0, upper = 0, other = 0;
-        for (int i = 0; i < chars.length; i++) {
-            char ch = chars[i];
+        for (char ch : chars) {
             if (ch >= '0' && ch <= '9') {
                 digit = 1;
             } else if (ch >= 'a' && ch <= 'z') {
@@ -48,9 +44,6 @@ public class Main {
             }
         }
         int total = digit + low + upper + other;
-        if (total >= 3)
-            return true;
-        else
-            return false;
+        return total >= 3;
     }
 }
