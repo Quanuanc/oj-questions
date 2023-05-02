@@ -8,14 +8,15 @@ public class ClimbingStairs {
     class Solution {
         public int climbStairs(int n) {
             if (n <= 2) return n;
-            int[] dp = new int[n + 1];
-            dp[0] = 0;
-            dp[1] = 1;
-            dp[2] = 2;
+            int dpN1 = 2; //dp[n-1]
+            int dpN2 = 1; //dp[n-2]
+            int dpN = 0; //dp[n]
             for (int i = 3; i <= n; i++) {
-                dp[i] = dp[i - 1] + dp[i - 2];
+                dpN = dpN1 + dpN2;
+                dpN2 = dpN1;
+                dpN1 = dpN;
             }
-            return dp[n];
+            return dpN;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
