@@ -1,8 +1,11 @@
-package nowcoder.hwod2.first;
+package nowcoder.od2023.first;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * @see <a href="https://wiki.amoscloud.com/zh/ProgramingPractice/NowCoder/Adecco/Topic0198">题目</a>
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

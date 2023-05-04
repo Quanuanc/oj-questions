@@ -1,10 +1,13 @@
-package nowcoder.hwod2.third;
+package nowcoder.od2023.third;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/**
+ * @see <a href="https://wiki.amoscloud.com/zh/ProgramingPractice/NowCoder/Adecco/Topic0151">题目</a>
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
