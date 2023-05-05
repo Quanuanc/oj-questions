@@ -11,22 +11,24 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        List<Integer> img = Arrays.stream(input.nextLine().split(" "))
-                .map(Integer::parseInt)
-                .collect(Collectors.toList());
+        List<Integer> img = Arrays.stream(input.nextLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());
 
-        double mm = 256;
+        double minDiff = 129;
         Integer ans = null;
         for (int i = -127; i <= 128; i++) {
             double sum = 0;
-            for (Integer integer : img) {
-                sum += Math.max(0, Math.min(integer + i, 255));
+            for (Integer item : img) {
+                // 新图的像素值会自动截取到[0,255]
+                int toBeAdded, newItem = item + i;
+                toBeAdded = Math.max(0, Math.min(newItem, 255));
+                sum += toBeAdded;
             }
-            double diff = Math.abs(sum / img.size() - 128);
-            if (diff < mm) {
-                mm = diff;
+            double avgDiff = Math.abs(sum / img.size() - 128); //平均值与128的差值
+//            System.out.printf("ans: %d, diff: %.0f\n", i, avgDiff);
+            if (avgDiff < minDiff) {
+                minDiff = avgDiff;
                 ans = i;
-            } else if (diff == mm && ans != null) {
+            } else if (avgDiff == minDiff && ans != null) {
                 ans = Math.min(ans, i);
             }
         }
