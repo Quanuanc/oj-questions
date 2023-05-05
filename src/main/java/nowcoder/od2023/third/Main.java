@@ -15,14 +15,19 @@ public class Main {
         List<Integer> messages = Arrays.stream(input.nextLine().split(" "))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
+
         int[] dp = new int[myMoney + 1];
         for (int i = 0; i <= messages.size(); i++) {
             for (int j = 0; j <= myMoney; j++) {
-                if (!(i == 0 || j == 0 || j < i)) {
-                    dp[j] = Math.max(dp[j], dp[j - i] + messages.get(i - 1));
+                if (i == 0 || j == 0 || j < i) {
+                    continue;
                 }
+                int A = dp[j];
+                int B = dp[j - i] + messages.get(i - 1);
+                dp[j] = Math.max(A, B);
             }
         }
+
         System.out.println(dp[myMoney]);
     }
 }
