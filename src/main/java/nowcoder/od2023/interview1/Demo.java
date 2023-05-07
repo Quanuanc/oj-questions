@@ -1,8 +1,11 @@
-package demo;
+package nowcoder.od2023.interview1;
 
 import java.util.Stack;
 
-public class Demo1 {
+/**
+ * @see <a href="https://leetcode.cn/problems/longest-valid-parentheses">32. 最长有效括号</a>
+ */
+public class Demo {
     public static void main(String[] args) {
 //        String input = "(()";
         String input = ")()())";
