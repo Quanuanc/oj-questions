@@ -20,4 +20,18 @@ class LongestPalindromicSubstringTest {
         String res = solution.longestPalindrome(s);
         assertEquals("bb", res);
     }
+
+    @Test
+    public void test2() {
+        String s = "babad";
+        String res = solution.longestPalindrome(s);
+        assertEquals("bab", res);
+    }
+
+    @Test
+    public void test3() {
+        String s = "ccc";
+        String res = solution.longestPalindrome(s);
+        assertEquals("ccc", res);
+    }
 }

@@ -17,14 +17,17 @@ public class LongestPalindromicSubstring {
                             break;
                         }
                     }
-                    if (left >= right && j - i > maxLen) {
+                    if (left >= right && j - i + 1 > maxLen) {
                         maxLen = j - i + 1;
                         start = i;
                     }
                 }
             }
-            if (maxLen > 0)
-                return s.substring(start, maxLen + 1);
+            if (maxLen > 0) {
+                return s.substring(start, start + maxLen);
+            } else if (maxLen == 0) {
+                return String.valueOf(s.charAt(start));
+            }
             return null;
         }
 
