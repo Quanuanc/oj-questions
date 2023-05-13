@@ -4,15 +4,15 @@ public class RemoveElement {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int removeElement(int[] nums, int val) {
-            int n = nums.length;
-            int left = 0;
-            for (int right = 0; right < n; right++) {
-                if (nums[right] != val) {
-                    nums[left] = nums[right];
-                    left++;
+            int slowIndex = 0, fastIndex = 0;
+            while (fastIndex < nums.length) {
+                if (nums[fastIndex] != val) {
+                    nums[slowIndex] = nums[fastIndex];
+                    slowIndex++;
                 }
+                fastIndex++;
             }
-            return left;
+            return slowIndex;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
