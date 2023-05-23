@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 /**
  * [380] O(1) 时间插入、删除和获取随机元素
@@ -11,32 +9,40 @@ public class InsertDeleteGetrandomO1 {
     //leetcode submit region begin(Prohibit modification and deletion)
     class RandomizedSet {
 
-        private final List<Integer> list = new ArrayList<>();
+        private final List<Integer> list;
+        private final Map<Integer, Integer> map;
+        private final Random random;
 
         public RandomizedSet() {
+            list = new ArrayList<>();
+            map = new HashMap<>();
+            random = new Random();
         }
 
         public boolean insert(int val) {
-            for (Integer item : list) {
-                if (item == val)
-                    return false;
+            if (map.containsKey(val)) {
+                return false;
             }
+            int index = list.size();
+            map.put(val, index);
             list.add(val);
             return true;
         }
 
         public boolean remove(int val) {
-            for (int i = 0; i < list.size(); i++) {
-                if (val == list.get(i)) {
-                    list.remove(i);
-                    return true;
-                }
+            if (!map.containsKey(val)) {
+                return false;
             }
-            return false;
+            int index = map.get(val);
+            int last = list.get(list.size() - 1);
+            list.set(index, last);
+            map.put(last, index);
+            list.remove(list.size() - 1);
+            map.remove(val);
+            return true;
         }
 
         public int getRandom() {
-            Random random = new Random();
             int i = random.nextInt(list.size());
             return list.get(i);
         }
