@@ -1,47 +1,35 @@
 package leetcode.editor.cn;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Stack;
 
 public class ValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValid(String s) {
-            Deque<Character> stack = new ArrayDeque<>();
+            Stack<Character> stack = new Stack<>();
             for (int i = 0; i < s.length(); i++) {
-                char cur = s.charAt(i);
-                if (isLeft(cur)) {
-                    stack.push(cur);
-                } else if (isRight(cur)) {
-                    if (stack.isEmpty())
-                        return false;
-                    char popChar = stack.pop();
-                    if (!isEqual(popChar, cur))
-                        return false;
+                char c = s.charAt(i);
+                if (isLeft(c)) {
+                    stack.push(c);
+                } else {
+                    if (stack.isEmpty()) return false;
+                    else {
+                        Character pop = stack.pop();
+                        if (pop == '(') {
+                            if (c != ')') return false;
+                        } else if (pop == '{') {
+                            if (c != '}') return false;
+                        } else {
+                            if (c != ']') return false;
+                        }
+                    }
                 }
             }
             return stack.isEmpty();
         }
 
-        public boolean isLeft(char c) {
-            return c == '(' || c == '[' || c == '{';
-        }
-
-        public boolean isRight(char c) {
-            return c == ')' || c == ']' || c == '}';
-        }
-
-        public boolean isEqual(char left, char right) {
-            switch (left) {
-                case '(':
-                    return right == ')';
-                case '{':
-                    return right == '}';
-                case '[':
-                    return right == ']';
-                default:
-                    return false;
-            }
+        private boolean isLeft(char c) {
+            return c == '(' || c == '{' || c == '[';
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
