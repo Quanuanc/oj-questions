@@ -19,15 +19,32 @@ public class ReverseLinkedList {
      * }
      */
     class Solution {
+        /**
+         * ----------- 1 -----------------
+         * A -> B -> C -> D
+         * p -> c -> n
+         * ------------------------------
+         * <p>
+         * ----------- 2 -----------------
+         * A -> B -> C -> D
+         * p -> c -> n
+         * ------------------------------
+         * <p>
+         * ----------- 3 -----------------
+         * A -> B -> C -> D
+         * p -> c -> n
+         * ------------------------------
+         */
         public ListNode reverseList(ListNode head) {
-            ListNode pre = head, cur = null; // pre 在前，cur 在后
-            while (pre != null) {
-                ListNode t = pre.next;
-                pre.next = cur;
-                cur = pre;
-                pre = t;
+            ListNode p = null;
+            ListNode c = head;
+            while (c != null) {
+                ListNode n = c.next;
+                c.next = p;
+                p = c;
+                c = n;
             }
-            return cur;
+            return p;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -1,7 +1,8 @@
 package leetcode.editor.cn;
 
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * [169] 多数元素
@@ -10,20 +11,18 @@ public class MajorityElement {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int majorityElement(int[] nums) {
-            int threshold = nums.length / 2;
-            Map<Integer, Integer> check = new HashMap<>();
-            for (int num : nums) {
-                if (!check.containsKey(num)) {
-                    check.put(num, 1);
-                } else {
-                    check.put(num, check.get(num) + 1);
+            int halfLen = nums.length / 2;
+            Map<Integer, Integer> count = new ConcurrentHashMap<>();
+            Arrays.stream(nums).parallel().forEach(item -> {
+                count.put(item, count.getOrDefault(item, 0) + 1);
+            });
+
+            for (Map.Entry<Integer, Integer> integerIntegerEntry : count.entrySet()) {
+                if (integerIntegerEntry.getValue() > halfLen) {
+                    return integerIntegerEntry.getKey();
                 }
             }
-            for (Map.Entry<Integer, Integer> entry : check.entrySet()) {
-                if (entry.getValue() > threshold) {
-                    return entry.getKey();
-                }
-            }
+
             return 0;
         }
     }
