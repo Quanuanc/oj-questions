@@ -21,20 +21,18 @@ public class LinkedListCycle {
      */
     public class Solution {
         public boolean hasCycle(ListNode head) {
-            ListNode slow = head;
-            if (head == null || head.next == null) {
-                return false;
-            }
-            ListNode fast = head.next;
-            while (slow != null && fast != null && fast.next != null) {
-                if (slow == fast) {
-                    return true;
-                } else {
-                    slow = slow.next;
-                    fast = fast.next.next;
+            if (head == null || head.next == null) return false;
+
+            ListNode slow = head, fast = head.next;
+            while (slow != fast) {
+                slow = slow.next;
+                fast = fast.next;
+                if (fast != null) {
+                    fast = fast.next;
                 }
+                if (slow == null || fast == null) return false;
             }
-            return false;
+            return true;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

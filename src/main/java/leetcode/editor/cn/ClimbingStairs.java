@@ -8,15 +8,15 @@ public class ClimbingStairs {
     class Solution {
         public int climbStairs(int n) {
             if (n <= 2) return n;
-            int dpN1 = 2; //dp[n-1]
-            int dpN2 = 1; //dp[n-2]
-            int dpN = 0; //dp[n]
-            for (int i = 3; i <= n; i++) {
-                dpN = dpN1 + dpN2;
-                dpN2 = dpN1;
-                dpN1 = dpN;
+            int dpi2 = 1;
+            int dpi1 = 2;
+            int dpi = dpi1 + dpi2;
+            for (int i = 3; i < n + 1; i++) {
+                dpi = dpi1 + dpi2;
+                dpi2 = dpi1;
+                dpi1 = dpi;
             }
-            return dpN;
+            return dpi;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

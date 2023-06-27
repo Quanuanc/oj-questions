@@ -7,15 +7,22 @@ public class LongestPalindrome {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int longestPalindrome(String s) {
-            int[] nums = new int[128]; //ascii
-            for (char c : s.toCharArray()) nums[c]++;
-
-            int ans = 0;
-            for (int v : nums) {
-                ans += v / 2 * 2;
-                if (v % 2 == 1 && ans % 2 == 0) ans++;
+            if (s.length() <= 1) return s.length();
+            int[] count = new int[128];
+            for (char c : s.toCharArray()) {
+                count[c]++;
             }
-            return ans;
+
+            int res = 0;
+            for (int i : count) {
+                int t = (i / 2) * 2;
+                res += t;
+                if (i % 2 == 1 && res % 2 == 0) {
+                    res += 1;
+                }
+            }
+
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

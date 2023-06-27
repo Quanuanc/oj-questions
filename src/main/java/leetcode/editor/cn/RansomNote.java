@@ -1,8 +1,5 @@
 package leetcode.editor.cn;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * [383] 赎金信
  */
@@ -10,15 +7,16 @@ public class RansomNote {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
-            Map<Character, Integer> maps = new HashMap<>();
-            for (char c : magazine.toCharArray()) {
-                maps.put(c, maps.get(c) == null ? 1 : maps.get(c) + 1);
+            int[] count = new int[26];
+            for (int i = 0; i < magazine.length(); i++) {
+                char c = magazine.charAt(i);
+                count[c - 'a']++;
             }
-            for (char c : ransomNote.toCharArray()) {
-                if (maps.get(c) == null || maps.get(c) <= 0) {
+            for (int i = 0; i < ransomNote.length(); i++) {
+                char c = ransomNote.charAt(i);
+                count[c - 'a']--;
+                if (count[c - 'a'] < 0) {
                     return false;
-                } else {
-                    maps.put(c, maps.get(c) - 1);
                 }
             }
             return true;
