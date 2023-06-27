@@ -11,10 +11,4 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
-    public static void main(String[] args) {
-        String hay = "leetcode", need = "leetco";
-        int result = new FindTheIndexOfTheFirstOccurrenceInAString().new Solution().strStr(hay, need);
-        System.out.println(result);
-    }
 }
