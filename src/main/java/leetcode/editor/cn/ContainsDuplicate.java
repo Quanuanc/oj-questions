@@ -9,14 +9,16 @@ import java.util.Set;
 public class ContainsDuplicate {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        Set<Integer> set = new HashSet<>();
 
         public boolean containsDuplicate(int[] nums) {
+            if (nums.length == 1) return false;
+            Set<Integer> set = new HashSet<>(nums.length);
             for (int num : nums) {
-                if (set.contains(num))
+                if (set.contains(num)) {
                     return true;
-                else
+                } else {
                     set.add(num);
+                }
             }
             return false;
         }
