@@ -10,9 +10,9 @@ public class AddBinary {
             int maxLen = Math.max(a.length(), b.length());
             StringBuilder result = new StringBuilder();
 
-            char ac = '2', bc = '2';
             char rc, carry = '0';
             for (int i = 0; i < maxLen; i++) {
+                char ac = '0', bc = '0';
 
                 int aIndex = a.length() - 1 - i;
                 int bIndex = b.length() - 1 - i;
@@ -24,25 +24,15 @@ public class AddBinary {
                     bc = b.charAt(bIndex);
                 }
 
-                if (ac != '2' && bc != '2') {
-                    char[] addRes = add(ac, bc, carry);
-                    rc = addRes[0];
-                    carry = addRes[1];
-                } else {
-                    if (ac == '2') ac = '0';
-                    if (bc == '2') bc = '0';
-                    char[] addRes = add(ac, bc, carry);
-                    rc = addRes[0];
-                    carry = addRes[1];
-                }
-
-                ac = '2';
-                bc = '2';
+                char[] addRes = add(ac, bc, carry);
+                rc = addRes[0];
+                carry = addRes[1];
 
                 result.append(rc);
             }
 
             if (carry != '0') result.append(carry);
+
             return result.reverse().toString();
         }
 
