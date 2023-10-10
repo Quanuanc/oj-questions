@@ -1,5 +1,8 @@
 package leetcode.editor.cn;
 
+/**
+ * [1299] Replace Elements with Greatest Element on Right Side
+ */
 public class ReplaceElementsWithGreatestElementOnRightSide {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

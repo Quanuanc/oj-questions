@@ -1,5 +1,8 @@
 package leetcode.editor.cn;
 
+/**
+ * [977] Squares of a Sorted Array
+ */
 public class SquaresOfASortedArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

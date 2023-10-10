@@ -1,5 +1,8 @@
 package leetcode.editor.cn;
 
+/**
+ * [1089] Duplicate Zeros
+ */
 public class DuplicateZeros {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

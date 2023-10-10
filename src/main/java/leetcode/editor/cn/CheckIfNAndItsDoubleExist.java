@@ -3,6 +3,10 @@ package leetcode.editor.cn;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * [1346] Check If N and Its Double Exist
+ */
 public class CheckIfNAndItsDoubleExist {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

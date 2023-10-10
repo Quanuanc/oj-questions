@@ -2,6 +2,9 @@ package leetcode.editor.cn;
 
 import java.util.Stack;
 
+/**
+ * [20] Valid Parentheses
+ */
 public class ValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
