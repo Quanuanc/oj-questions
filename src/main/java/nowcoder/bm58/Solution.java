@@ -6,6 +6,12 @@ import java.util.HashSet;
 import java.util.List;
 
 public class Solution {
+    public static void main(String[] args) {
+        String str = "aab";
+        List<String> list = new Solution().Permutation(str);
+        System.out.println(list);
+    }
+
     public ArrayList<String> Permutation(String str) {
         ArrayList<String> list = new ArrayList<>();
         if (str == null || str.length() == 0) return list;
@@ -33,11 +39,5 @@ public class Solution {
             str[i] = str[j];
             str[j] = temp;
         }
-    }
-
-    public static void main(String[] args) {
-        String str = "aab";
-        List<String> list = new Solution().Permutation(str);
-        System.out.println(list);
     }
 }
