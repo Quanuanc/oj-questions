@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Stack;
 
-/**
- * [32] 最长有效括号
- */
+// [32] 最长有效括号
 public class LongestValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

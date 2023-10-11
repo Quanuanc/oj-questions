@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [1592] 重新排列单词间的空格
- */
+// [1592] 重新排列单词间的空格
 public class RearrangeSpacesBetweenWords {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

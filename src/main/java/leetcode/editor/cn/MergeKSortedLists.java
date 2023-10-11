@@ -5,9 +5,7 @@ import dsa.ListNode;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-/**
- * [23] 合并K个升序链表
- */
+// [23] 合并K个升序链表
 public class MergeKSortedLists {
     //leetcode submit region begin(Prohibit modification and deletion)
 

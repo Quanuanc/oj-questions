@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [27] Remove Element
- */
+// [27] Remove Element
 public class RemoveElement {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

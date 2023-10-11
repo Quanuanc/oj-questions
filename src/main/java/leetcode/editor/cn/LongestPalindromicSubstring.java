@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [5] 最长回文子串
- */
+// [5] 最长回文子串
 public class LongestPalindromicSubstring {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

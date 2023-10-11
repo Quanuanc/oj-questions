@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * [144] 二叉树的前序遍历
- */
+// [144] 二叉树的前序遍历
 public class BinaryTreePreorderTraversal {
     //leetcode submit region begin(Prohibit modification and deletion)
 

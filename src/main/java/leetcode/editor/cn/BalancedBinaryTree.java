@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.TreeNode;
 
-/**
- * [110] 平衡二叉树
- */
+// [110] 平衡二叉树
 public class BalancedBinaryTree {
     //leetcode submit region begin(Prohibit modification and deletion)
 

@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [509] Fibonacci Number
- */
+// [509] Fibonacci Number
 public class FibonacciNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

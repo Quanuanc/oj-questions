@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Stack;
 
-/**
- * [150] 逆波兰表达式求值
- */
+// [150] 逆波兰表达式求值
 public class EvaluateReversePolishNotation {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

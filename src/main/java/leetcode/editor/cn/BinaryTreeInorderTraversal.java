@@ -5,9 +5,7 @@ import dsa.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * [94] 二叉树的中序遍历
- */
+// [94] 二叉树的中序遍历
 public class BinaryTreeInorderTraversal {
     //leetcode submit region begin(Prohibit modification and deletion)
 

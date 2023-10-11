@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [34] 在排序数组中查找元素的第一个和最后一个位置
- */
+// [34] 在排序数组中查找元素的第一个和最后一个位置
 public class FindFirstAndLastPositionOfElementInSortedArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

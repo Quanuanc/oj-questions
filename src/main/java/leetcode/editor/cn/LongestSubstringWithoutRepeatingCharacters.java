@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * [3] 无重复字符的最长子串
- */
+// [3] 无重复字符的最长子串
 public class LongestSubstringWithoutRepeatingCharacters {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

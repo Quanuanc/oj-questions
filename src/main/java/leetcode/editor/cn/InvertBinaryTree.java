@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.TreeNode;
 
-/**
- * [226] 翻转二叉树
- */
+// [226] 翻转二叉树
 public class InvertBinaryTree {
     //leetcode submit region begin(Prohibit modification and deletion)
 

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Stack;
 
-/**
- * [682] 棒球比赛
- */
+// [682] 棒球比赛
 public class BaseballGame {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [724] Find Pivot Index
- */
+// [724] Find Pivot Index
 public class FindPivotIndex {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.*;
 
-/**
- * [380] O(1) 时间插入、删除和获取随机元素
- */
+// [380] O(1) 时间插入、删除和获取随机元素
 public class InsertDeleteGetrandomO1 {
     //leetcode submit region begin(Prohibit modification and deletion)
     class RandomizedSet {

@@ -1,11 +1,11 @@
 package leetcode.editor.cn;
 
-import javax.swing.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-/**
- * [347] 前 K 个高频元素
- */
+// [347] 前 K 个高频元素
 public class TopKFrequentElements {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

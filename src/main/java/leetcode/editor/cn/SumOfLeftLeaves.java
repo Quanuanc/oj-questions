@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.TreeNode;
 
-/**
- * [404] 左叶子之和
- */
+// [404] 左叶子之和
 public class SumOfLeftLeaves {
     //leetcode submit region begin(Prohibit modification and deletion)
 

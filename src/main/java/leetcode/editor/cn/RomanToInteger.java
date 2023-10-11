@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [13] Roman to Integer
- */
+// [13] Roman to Integer
 public class RomanToInteger {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

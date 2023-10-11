@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [67] 二进制求和
- */
+// [67] 二进制求和
 public class AddBinary {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

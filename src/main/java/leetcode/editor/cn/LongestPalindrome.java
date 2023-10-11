@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [409] 最长回文串
- */
+// [409] 最长回文串
 public class LongestPalindrome {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Arrays;
 
-/**
- * [189] 轮转数组
- */
+// [189] 轮转数组
 public class RotateArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

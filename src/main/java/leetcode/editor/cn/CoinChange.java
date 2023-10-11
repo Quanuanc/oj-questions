@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.Arrays;
 
 
-/**
- * [322] Coin Change
- */
+// [322] Coin Change
 public class CoinChange {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

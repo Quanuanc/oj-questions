@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.*;
 
-/**
- * [49] 字母异位词分组
- */
+// [49] 字母异位词分组
 public class GroupAnagrams {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

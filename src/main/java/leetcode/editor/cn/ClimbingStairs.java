@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [70] 爬楼梯
- */
+// [70] 爬楼梯
 public class ClimbingStairs {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

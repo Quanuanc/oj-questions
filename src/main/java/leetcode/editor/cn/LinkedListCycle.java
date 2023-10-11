@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
-/**
- * [141] 环形链表
- */
+// [141] 环形链表
 public class LinkedListCycle {
     //leetcode submit region begin(Prohibit modification and deletion)
 

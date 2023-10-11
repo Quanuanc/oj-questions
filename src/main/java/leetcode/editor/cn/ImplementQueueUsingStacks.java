@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Stack;
 
-/**
- * [232] 用栈实现队列
- */
+// [232] 用栈实现队列
 public class ImplementQueueUsingStacks {
     //leetcode submit region begin(Prohibit modification and deletion)
     class MyQueue {

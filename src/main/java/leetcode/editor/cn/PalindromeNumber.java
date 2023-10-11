@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [9] 回文数
- */
+// [9] 回文数
 public class PalindromeNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

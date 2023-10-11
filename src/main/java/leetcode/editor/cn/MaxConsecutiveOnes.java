@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [485] 最大连续 1 的个数
- */
+// [485] 最大连续 1 的个数
 public class MaxConsecutiveOnes {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

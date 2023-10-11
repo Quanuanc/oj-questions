@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [191] 位1的个数
- */
+// [191] 位1的个数
 public class NumberOf1Bits {
     //leetcode submit region begin(Prohibit modification and deletion)
     public class Solution {

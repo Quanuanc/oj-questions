@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [35] 搜索插入位置
- */
+// [35] 搜索插入位置
 public class SearchInsertPosition {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [389] 找不同
- */
+// [389] 找不同
 public class FindTheDifference {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

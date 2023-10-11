@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * [57] 插入区间
- */
+// [57] 插入区间
 public class InsertInterval {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

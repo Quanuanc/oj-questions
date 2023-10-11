@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * [819] 最常见的单词
- */
+// [819] 最常见的单词
 public class MostCommonWord {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.TreeNode;
 
-/**
- * [235] 二叉搜索树的最近公共祖先
- */
+// [235] 二叉搜索树的最近公共祖先
 public class LowestCommonAncestorOfABinarySearchTree {
     //leetcode submit region begin(Prohibit modification and deletion)
 

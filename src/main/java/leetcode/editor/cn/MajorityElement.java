@@ -4,9 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * [169] 多数元素
- */
+// [169] 多数元素
 public class MajorityElement {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

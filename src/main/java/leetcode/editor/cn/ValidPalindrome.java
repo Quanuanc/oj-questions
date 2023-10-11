@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [125] Valid Palindrome
- */
+// [125] Valid Palindrome
 public class ValidPalindrome {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

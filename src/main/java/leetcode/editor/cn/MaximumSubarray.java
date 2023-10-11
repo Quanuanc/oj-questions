@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [53] 最大子数组和
- */
+// [53] 最大子数组和
 public class MaximumSubarray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
-/**
- * [206] 反转链表
- */
+// [206] 反转链表
 public class ReverseLinkedList {
     //leetcode submit region begin(Prohibit modification and deletion)
 

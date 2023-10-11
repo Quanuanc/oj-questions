@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.VersionControl;
 
-/**
- * [278] 第一个错误的版本
- */
+// [278] 第一个错误的版本
 public class FirstBadVersion {
     //leetcode submit region begin(Prohibit modification and deletion)
 /* The isBadVersion API is defined in the parent class VersionControl.

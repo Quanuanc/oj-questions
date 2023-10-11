@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [121] 买卖股票的最佳时机
- */
+// [121] 买卖股票的最佳时机
 public class BestTimeToBuyAndSellStock {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

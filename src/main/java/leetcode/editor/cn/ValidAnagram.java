@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [242] Valid Anagram
- */
+// [242] Valid Anagram
 public class ValidAnagram {
     //leetcode submit region begin(Prohibit modification and deletion)
     public class Solution {

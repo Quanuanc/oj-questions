@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Arrays;
 
-/**
- * [198] 打家劫舍
- */
+// [198] 打家劫舍
 public class HouseRobber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

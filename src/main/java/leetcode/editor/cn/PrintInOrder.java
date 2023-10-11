@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [1114] Print in Order
- */
+// [1114] Print in Order
 public class PrintInOrder {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Foo {

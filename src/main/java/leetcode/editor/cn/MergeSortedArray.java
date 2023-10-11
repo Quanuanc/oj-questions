@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import java.util.Arrays;
 
-/**
- * [88] Merge Sorted Array
- */
+// [88] Merge Sorted Array
 public class MergeSortedArray {
 
     //leetcode submit region begin(Prohibit modification and deletion)

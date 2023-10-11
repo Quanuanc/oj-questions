@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
-/**
- * [876] 链表的中间结点
- */
+// [876] 链表的中间结点
 public class MiddleOfTheLinkedList {
     //leetcode submit region begin(Prohibit modification and deletion)
 

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
-/**
- * [86] 分隔链表
- */
+// [86] 分隔链表
 public class PartitionList {
     //leetcode submit region begin(Prohibit modification and deletion)
 

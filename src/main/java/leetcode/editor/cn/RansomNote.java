@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [383] 赎金信
- */
+// [383] 赎金信
 public class RansomNote {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

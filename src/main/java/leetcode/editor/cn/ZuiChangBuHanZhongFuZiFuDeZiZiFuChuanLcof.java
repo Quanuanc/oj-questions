@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * [剑指 Offer 48] 最长不含重复字符的子字符串
- */
+// [剑指 Offer 48] 最长不含重复字符的子字符串
 public class ZuiChangBuHanZhongFuZiFuDeZiZiFuChuanLcof {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

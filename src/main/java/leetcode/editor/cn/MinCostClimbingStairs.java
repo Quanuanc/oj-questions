@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [746] 使用最小花费爬楼梯
- */
+// [746] 使用最小花费爬楼梯
 public class MinCostClimbingStairs {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

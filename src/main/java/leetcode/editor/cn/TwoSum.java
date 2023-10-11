@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * [1] Two Sum
- */
+// [1] Two Sum
 public class TwoSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

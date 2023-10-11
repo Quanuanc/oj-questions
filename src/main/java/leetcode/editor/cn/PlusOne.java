@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.math.BigDecimal;
 
 
-/**
- * [66] 加一
- */
+// [66] 加一
 public class PlusOne {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -2,9 +2,7 @@ package leetcode.editor.cn;
 
 import dsa.ListNode;
 
-/**
- * [剑指 Offer 22] 链表中倒数第k个节点
- */
+// [剑指 Offer 22] 链表中倒数第k个节点
 public class LianBiaoZhongDaoShuDiKgeJieDianLcof {
     //leetcode submit region begin(Prohibit modification and deletion)
 

@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * [15] 三数之和
- */
+// [15] 三数之和
 public class ThreeSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -1,8 +1,6 @@
 package leetcode.editor.cn;
 
-/**
- * [1137] 第 N 个泰波那契数
- */
+// [1137] 第 N 个泰波那契数
 public class NThTribonacciNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

@@ -3,9 +3,7 @@ package leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * [118] 杨辉三角
- */
+// [118] 杨辉三角
 public class PascalsTriangle {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
