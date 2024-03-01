@@ -1,9 +1,9 @@
 package leetcode.editor.cn.q1299;
 
+
 // [1299] Replace Elements with Greatest Element on Right Side
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    //TODO
     public int[] replaceElements(int[] arr) {
         int len = arr.length;
         if (len == 1)
@@ -33,4 +33,3 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
-
