@@ -2,4 +2,4 @@
 .idea/
 target/
 *.iml
-src/main/java/leetcode/editor/cn/doc/
+src/main/java/dev/cheng/leetcode/doc/
