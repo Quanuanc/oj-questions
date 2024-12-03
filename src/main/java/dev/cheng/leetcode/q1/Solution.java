@@ -1,10 +1,13 @@
 package dev.cheng.leetcode.q1;
+// {1} {two-sum}
 
 import java.util.HashMap;
 import java.util.Map;
 
-// [1] Two Sum
-//leetcode submit region begin(Prohibit modification and deletion)
+/**
+ * @link <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
+ */
+// ------ AlgoAce Begin -----
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
@@ -20,5 +23,4 @@ class Solution {
         return result;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
-
+// ------ AlgoAce End -------
