@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q1592;
 
 // [1592] 重新排列单词间的空格
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String reorderSpaces(String text) {
         String[] tList = text.trim().split("\\s+");
@@ -32,6 +31,5 @@ class Solution {
         return result.toString();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

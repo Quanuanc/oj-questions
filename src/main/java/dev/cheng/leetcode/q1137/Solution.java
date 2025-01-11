@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q1137;
 
 // [1137] 第 N 个泰波那契数
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int tribonacci(int n) {
         if (n == 0) return 0;
@@ -21,5 +20,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

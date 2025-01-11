@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q876;
 import dev.cheng.leetcode.dsa.ListNode;
 
 // [876] 链表的中间结点
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -28,6 +27,5 @@ class Solution {
         return slow;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

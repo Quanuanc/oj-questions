@@ -2,7 +2,6 @@ package dev.cheng.leetcode.q415;
 
 
 // [415] 字符串相加
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String addStrings(String num1, String num2) {
         int i = num1.length() - 1, j = num2.length() - 1, add = 0;
@@ -19,4 +18,3 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // [118] 杨辉三角
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> resList = new ArrayList<>(numRows);
@@ -29,6 +28,5 @@ class Solution {
         return resList;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

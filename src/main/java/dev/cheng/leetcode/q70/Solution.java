@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q70;
 
 // [70] 爬楼梯
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int climbStairs(int n) {
         if (n <= 2) return n;
@@ -16,5 +15,4 @@ class Solution {
         return dpi;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

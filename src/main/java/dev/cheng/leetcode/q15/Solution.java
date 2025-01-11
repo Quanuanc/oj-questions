@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 // [15] 三数之和
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -32,5 +31,4 @@ class Solution {
         return ans;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q724;
 
 // [724] Find Pivot Index
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int pivotIndex(int[] nums) {
         int len = nums.length;
@@ -22,5 +21,4 @@ class Solution {
         return -1;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

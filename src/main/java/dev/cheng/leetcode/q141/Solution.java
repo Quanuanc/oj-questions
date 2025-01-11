@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q141;
 import dev.cheng.leetcode.dsa.ListNode;
 
 // [141] 环形链表
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -32,5 +31,4 @@ public class Solution {
         return true;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

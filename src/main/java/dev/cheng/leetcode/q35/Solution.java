@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q35;
 
 // [35] 搜索插入位置
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int len = nums.length;
@@ -19,5 +18,4 @@ class Solution {
         return right + 1;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

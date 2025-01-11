@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q32;
 import java.util.Stack;
 
 // [32] 最长有效括号
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestValidParentheses(String s) {
         int max = 0;
@@ -27,5 +26,4 @@ class Solution {
         return max;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 // [438] 找到字符串中所有字母异位词
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if (s.length() < p.length()) return new ArrayList<>();
@@ -58,5 +57,4 @@ class Solution {
         return map;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q389;
 
 // [389] 找不同
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public char findTheDifference(String s, String t) {
         int[] charCount = new int[26];
@@ -19,5 +18,4 @@ class Solution {
         return 'A';
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

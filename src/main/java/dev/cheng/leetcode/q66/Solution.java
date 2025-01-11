@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 
 
 // [66] 加一
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] plusOne(int[] digits) {
         StringBuilder sb = new StringBuilder();
@@ -27,6 +26,5 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

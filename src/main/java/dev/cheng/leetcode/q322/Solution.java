@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 
 // [322] Coin Change
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
@@ -20,5 +19,4 @@ class Solution {
         return (dp[amount] == amount + 1) ? -1 : dp[amount];
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

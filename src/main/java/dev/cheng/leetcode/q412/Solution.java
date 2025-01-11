@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // [412] Fizz Buzz
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>();
@@ -22,5 +21,4 @@ class Solution {
         return result;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

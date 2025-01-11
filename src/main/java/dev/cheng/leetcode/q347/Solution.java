@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 // [347] 前 K 个高频元素
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -37,6 +36,5 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

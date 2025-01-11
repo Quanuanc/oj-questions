@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q20;
 import java.util.Stack;
 
 // [20] Valid Parentheses
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
@@ -32,5 +31,4 @@ class Solution {
         return c == '(' || c == '{' || c == '[';
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

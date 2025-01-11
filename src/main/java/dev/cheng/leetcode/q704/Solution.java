@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q704;
 
 // [704] 二分查找
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1; //左右都在num区间范围内
@@ -33,5 +32,4 @@ class Solution {
         return -1;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

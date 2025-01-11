@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q409;
 
 // [409] 最长回文串
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int longestPalindrome(String s) {
         if (s.length() <= 1) return s.length();
@@ -22,5 +21,4 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // [94] 二叉树的中序遍历
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -36,5 +35,4 @@ class Solution {
         return list;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

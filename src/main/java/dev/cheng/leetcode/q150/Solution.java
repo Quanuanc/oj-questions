@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q150;
 import java.util.Stack;
 
 // [150] 逆波兰表达式求值
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
@@ -57,5 +56,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

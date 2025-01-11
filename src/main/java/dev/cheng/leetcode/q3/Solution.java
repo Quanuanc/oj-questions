@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // [3] 无重复字符的最长子串
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         Queue<Character> queue = new LinkedList<>();
@@ -20,6 +19,5 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

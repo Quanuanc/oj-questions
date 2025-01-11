@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q509;
 
 // [509] Fibonacci Number
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int fib(int n) {
         if (n == 0 || n == 1)
@@ -15,5 +14,4 @@ class Solution {
         return dp_i_1;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

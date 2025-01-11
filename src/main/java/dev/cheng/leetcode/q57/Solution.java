@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // [57] 插入区间
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         int left = newInterval[0];
@@ -40,5 +39,4 @@ class Solution {
         return result;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

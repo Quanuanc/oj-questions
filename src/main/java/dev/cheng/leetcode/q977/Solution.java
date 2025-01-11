@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q977;
 
 // [977] Squares of a Sorted Array
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] sortedSquares(int[] nums) {
         int len = nums.length;
@@ -19,5 +18,4 @@ class Solution {
         return result;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

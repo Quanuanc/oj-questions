@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q9;
 
 // [9] 回文数
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
@@ -24,5 +23,4 @@ class Solution {
         return true;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

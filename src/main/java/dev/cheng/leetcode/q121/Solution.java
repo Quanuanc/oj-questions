@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q121;
 
 // [121] 买卖股票的最佳时机
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxProfit(int[] prices) {
         int maxProfit = 0, minPrice = prices[0];
@@ -12,5 +11,4 @@ class Solution {
         return maxProfit;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

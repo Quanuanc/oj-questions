@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q189;
 import java.util.Arrays;
 
 // [189] 轮转数组
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void rotate(int[] nums, int k) {
         if (nums.length <= 1) return;
@@ -13,6 +12,5 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q86;
 import dev.cheng.leetcode.dsa.ListNode;
 
 // [86] 分隔链表
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -38,5 +37,4 @@ class Solution {
         return dummy1.next;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q34;
 
 // [34] 在排序数组中查找元素的第一个和最后一个位置
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     int[] searchRange(int[] nums, int target) {
         int leftBorder = getLeftBorder(nums, target);
@@ -46,5 +45,4 @@ class Solution {
         return leftBorder;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

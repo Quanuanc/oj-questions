@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q242;
 
 // [242] Valid Anagram
-//leetcode submit region begin(Prohibit modification and deletion)
 public class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
@@ -15,5 +14,4 @@ public class Solution {
         return true;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

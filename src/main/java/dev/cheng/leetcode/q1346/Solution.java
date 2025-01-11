@@ -5,7 +5,6 @@ import java.util.Map;
 
 
 // [1346] Check If N and Its Double Exist
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean checkIfExist(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -25,5 +24,4 @@ class Solution {
         return false;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q104;
 import dev.cheng.leetcode.dsa.TreeNode;
 
 // [104] 二叉树的最大深度
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -34,5 +33,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

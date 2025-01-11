@@ -2,7 +2,6 @@ package dev.cheng.leetcode.q69;
 
 
 // [69] x 的平方根 
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     private int s = 0;
 
@@ -21,4 +20,3 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q682;
 import java.util.Stack;
 
 // [682] 棒球比赛
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int calPoints(String[] operations) {
         Stack<Integer> stack = new Stack<>();
@@ -32,5 +31,4 @@ class Solution {
         return sum;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

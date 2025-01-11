@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 // [169] 多数元素
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int majorityElement(int[] nums) {
         int halfLen = nums.length / 2;
@@ -23,4 +22,3 @@ class Solution {
         return 0;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

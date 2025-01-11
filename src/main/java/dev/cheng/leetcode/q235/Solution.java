@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q235;
 import dev.cheng.leetcode.dsa.TreeNode;
 
 // [235] 二叉搜索树的最近公共祖先
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -28,5 +27,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

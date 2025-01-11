@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 // [819] 最常见的单词
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         String[] words = paragraph.toLowerCase().split("\\W");
@@ -31,4 +30,3 @@ class Solution {
         return maxKey.toString();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

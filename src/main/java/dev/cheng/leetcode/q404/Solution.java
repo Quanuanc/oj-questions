@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q404;
 import dev.cheng.leetcode.dsa.TreeNode;
 
 // [404] 左叶子之和
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -46,5 +45,4 @@ class Solution {
         return node.left == null && node.right == null;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q1114;
 
 // [1114] Print in Order
-//leetcode submit region begin(Prohibit modification and deletion)
 class Foo {
 
     private final Object object = new Object();
@@ -37,5 +36,4 @@ class Foo {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 // [23] 合并K个升序链表
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -44,5 +43,4 @@ class Solution {
         return dummy.next;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q5;
 
 // [5] 最长回文子串
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String longestPalindrome(String s) {
         int start = 0;
@@ -29,5 +28,4 @@ class Solution {
     }
 
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

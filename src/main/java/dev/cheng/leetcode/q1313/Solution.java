@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q1313;
 
 // [1313] Decompress Run-Length Encoded List
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int len = 0;
@@ -21,5 +20,4 @@ class Solution {
         return result;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -5,7 +5,6 @@ import java.util.*;
 class Solution {
     static
 // [380] O(1) 时间插入、删除和获取随机元素
-//leetcode submit region begin(Prohibit modification and deletion)
     class RandomizedSet {
 
         private final List<Integer> list;
@@ -54,6 +53,5 @@ class Solution {
   boolean param_2 = obj.remove(val);
   int param_3 = obj.getRandom();
  */
-//leetcode submit region end(Prohibit modification and deletion)
 
 }

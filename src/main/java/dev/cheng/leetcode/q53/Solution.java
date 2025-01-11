@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q53;
 
 // [53] 最大子数组和
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxSubArray(int[] nums) {
         int res = nums[0];
@@ -17,5 +16,4 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

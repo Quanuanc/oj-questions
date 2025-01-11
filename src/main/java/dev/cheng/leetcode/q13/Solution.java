@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q13;
 
 // [13] Roman to Integer
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     //I             1
     //V             5
@@ -63,6 +62,5 @@ class Solution {
         return s.charAt(index + 1) == target;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

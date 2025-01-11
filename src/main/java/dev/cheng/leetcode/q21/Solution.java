@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q21;
 import dev.cheng.leetcode.dsa.ListNode;
 
 // [21] 合并两个有序链表
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -34,5 +33,4 @@ class Solution {
         return preHead.next;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

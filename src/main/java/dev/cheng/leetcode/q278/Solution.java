@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q278;
 import dev.cheng.leetcode.dsa.VersionControl;
 
 // [278] 第一个错误的版本
-//leetcode submit region begin(Prohibit modification and deletion)
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
@@ -21,5 +20,4 @@ public class Solution extends VersionControl {
         return right;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

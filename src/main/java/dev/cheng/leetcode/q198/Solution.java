@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q198;
 import java.util.Arrays;
 
 // [198] 打家劫舍
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
     public int rob(int[] nums) {
@@ -30,5 +29,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

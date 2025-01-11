@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q49;
 import java.util.*;
 
 // [49] 字母异位词分组
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> res = new ArrayList<>();
@@ -22,6 +21,5 @@ class Solution {
         return res;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 

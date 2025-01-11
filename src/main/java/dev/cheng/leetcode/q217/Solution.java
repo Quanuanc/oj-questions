@@ -4,7 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 // [217] 存在重复元素
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
     public boolean containsDuplicate(int[] nums) {
@@ -17,5 +16,4 @@ class Solution {
         return false;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

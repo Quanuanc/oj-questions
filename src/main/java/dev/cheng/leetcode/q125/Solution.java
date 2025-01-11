@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q125;
 
 // [125] Valid Palindrome
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isPalindrome(String s) {
         if (s.length() == 0) return true;
@@ -16,5 +15,4 @@ class Solution {
         return true;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

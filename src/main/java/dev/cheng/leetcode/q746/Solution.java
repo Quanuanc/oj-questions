@@ -1,7 +1,6 @@
 package dev.cheng.leetcode.q746;
 
 // [746] 使用最小花费爬楼梯
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int[] dp = new int[cost.length];
@@ -22,5 +21,4 @@ class Solution {
         }
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

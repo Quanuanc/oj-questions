@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q206;
 import dev.cheng.leetcode.dsa.ListNode;
 
 // [206] 反转链表
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for singly-linked list.
@@ -44,5 +43,4 @@ class Solution {
         return p;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

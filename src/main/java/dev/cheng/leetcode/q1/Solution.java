@@ -7,7 +7,6 @@ import java.util.Map;
 /**
  * @link <a href="https://leetcode.com/problems/two-sum">Two Sum</a>
  */
-// ------ AlgoAce Begin -----
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
@@ -23,4 +22,3 @@ class Solution {
         return result;
     }
 }
-// ------ AlgoAce End -------

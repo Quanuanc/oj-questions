@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q226;
 import dev.cheng.leetcode.dsa.TreeNode;
 
 // [226] 翻转二叉树
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -33,5 +32,4 @@ class Solution {
         return root;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 

@@ -2,7 +2,6 @@ package dev.cheng.leetcode.q14;
 
 
 // [14] 最长公共前缀
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) return strs[0];
@@ -33,4 +32,3 @@ class Solution {
         return longest;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

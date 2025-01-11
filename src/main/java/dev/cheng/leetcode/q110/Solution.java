@@ -3,7 +3,6 @@ package dev.cheng.leetcode.q110;
 import dev.cheng.leetcode.dsa.TreeNode;
 
 // [110] 平衡二叉树
-//leetcode submit region begin(Prohibit modification and deletion)
 
 /**
  * Definition for a binary tree node.
@@ -33,5 +32,4 @@ class Solution {
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
