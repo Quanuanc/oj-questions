@@ -1,4 +1,5 @@
 package dev.cheng.leetcode.q2185;
+// {2292} {counting-words-with-a-given-prefix}
 
 // [2185] 统计包含给定前缀的字符串
 class Solution {
